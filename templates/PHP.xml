@@ -1,0 +1,27 @@
+<templateSet group="PHP">
+  <template name="trycatch" value="try{&#10;$END$&#10;}&#10;catch(\Exception $e){&#10;&#10;}" description="try catch" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="rall" value="return $request-&gt;all(); $END$" description="return request-&gt;all()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Class Member" value="false" />
+      <option name="PHP Comment" value="false" />
+      <option name="PHP Expression" value="false" />
+      <option name="PHP Statement" value="false" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
+  <template name="querylog" value="\DB::connection()-&gt;enableQueryLog();&#10;            // some queries here&#10;            $END$&#10;            $queries = \DB::getQueryLog();" description="DB Query Log" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

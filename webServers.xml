@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cb878993-80bc-4e30-9160-89870e86d4e5" name="ackosoft" url="http://35.163.52.220/virgemblud-api">
+        <fileTransfer host="35.163.52.220" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="32cb1bce-3449-49d9-96cb-de408535599e" name="ackosoftServer" url="http://ackosoft.co.uk">
+        <fileTransfer host="ackosoft.co.uk" port="21" rootFolder="/home/ackosoft">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ae1ab3f1-3280-4d5a-a07e-cebd83987da7" name="ackosoftServ" url="http://ackosoft.co.uk">
+        <fileTransfer host="ackosoft.co.uk" port="21" rootFolder="/var/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
