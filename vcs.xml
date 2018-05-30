@@ -6,10 +6,11 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="reazulackosoft" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://bitbucket.org" />
+          <option name="userName" value="MuradReazul" />
+        </UrlAndUserName>
       </list>
     </option>
-  </component>
-  <component name="Vcs.Log.App.Settings">
-    <option name="MIGRATED" value="true" />
   </component>
 </application>
